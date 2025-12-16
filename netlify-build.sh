@@ -34,7 +34,8 @@ flutter --version
 
 # Get dependencies
 echo "Getting Flutter dependencies..."
-cd $INIT_CWD || cd $(dirname $0)/..
+# Ensure we're in the repository root (Netlify runs scripts from repo root)
+cd "$(dirname "$0")" || cd "$PWD"
 flutter pub get
 
 # Build web app
