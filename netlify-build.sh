@@ -34,7 +34,7 @@ flutter --version
 
 # Get dependencies
 echo "Getting Flutter dependencies..."
-cd $NETLIFY_BUILD_BASE
+cd $INIT_CWD || cd $(dirname $0)/..
 flutter pub get
 
 # Build web app
