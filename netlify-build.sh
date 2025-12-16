@@ -3,6 +3,10 @@
 # Exit on error
 set -e
 
+# Save the repository root directory
+REPO_ROOT="$(cd "$(dirname "$0")" && pwd)"
+echo "Repository root: $REPO_ROOT"
+
 echo "Installing Flutter SDK..."
 
 # Install Flutter
@@ -32,10 +36,19 @@ flutter precache --web
 # Verify Flutter installation
 flutter --version
 
+# Return to repository root
+echo "Returning to repository root: $REPO_ROOT"
+cd "$REPO_ROOT"
+
+# Verify we're in the right place
+if [ ! -f "pubspec.yaml" ]; then
+  echo "Error: pubspec.yaml not found. Current directory: $(pwd)"
+  ls -la
+  exit 1
+fi
+
 # Get dependencies
 echo "Getting Flutter dependencies..."
-# Ensure we're in the repository root (Netlify runs scripts from repo root)
-cd "$(dirname "$0")" || cd "$PWD"
 flutter pub get
 
 # Build web app
