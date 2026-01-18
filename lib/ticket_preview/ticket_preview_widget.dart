@@ -214,7 +214,7 @@ class _TicketPreviewWidgetState extends State<TicketPreviewWidget> {
                           },
                           child: ClipRRect(
                             borderRadius: BorderRadius.circular(8.0),
-                            child: Image.network(
+                            child: Image.asset(
                               FFAppConstants.eventPicture,
                               width: 300.0,
                               height: 200.0,

@@ -505,7 +505,7 @@ class _SentTicketsWidgetState extends State<SentTicketsWidget>
                                       child: ClipRRect(
                                         borderRadius:
                                             BorderRadius.circular(0.0),
-                                        child: Image.network(
+                                        child: Image.asset(
                                           FFAppConstants.eventPicture,
                                           width: 320.0,
                                           height: 200.0,
