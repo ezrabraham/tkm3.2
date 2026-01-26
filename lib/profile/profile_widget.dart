@@ -96,7 +96,7 @@ class _ProfileWidgetState extends State<ProfileWidget> {
                       padding:
                           EdgeInsetsDirectional.fromSTEB(30.0, 16.0, 0.0, 2.0),
                       child: Text(
-                        'Jesse  Declan',
+                        'Briana Hart',
                         textAlign: TextAlign.start,
                         style:
                             FlutterFlowTheme.of(context).headlineSmall.override(
@@ -123,7 +123,7 @@ class _ProfileWidgetState extends State<ProfileWidget> {
                       padding:
                           EdgeInsetsDirectional.fromSTEB(30.0, 0.0, 0.0, 30.0),
                       child: Text(
-                        'Daised283@gmail.com',
+                        'brianhart76@gmail.com',
                         style: FlutterFlowTheme.of(context).titleSmall.override(
                               font: GoogleFonts.plusJakartaSans(
                                 fontWeight: FontWeight.normal,

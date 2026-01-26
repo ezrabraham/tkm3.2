@@ -1,7 +1,7 @@
 
 abstract class FFAppConstants {
   static const String sec = '106';
-  static const String row = '4';
+  static const String row = '2';
   static const int tick1 = 7;
   static const int tick2 = 8;
   static const int tick3 = 9;
