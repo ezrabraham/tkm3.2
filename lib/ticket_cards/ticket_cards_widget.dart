@@ -511,7 +511,7 @@ class _TicketCardsWidgetState extends State<TicketCardsWidget> {
                                           child: Padding(
                                             padding:
                                                 EdgeInsetsDirectional.fromSTEB(
-                                                    5.0, 131.0, 5.0, 15.0),
+                                                    5.0, 128.0, 5.0, 15.0),
                                             child: Column(
                                               mainAxisSize: MainAxisSize.min,
                                               mainAxisAlignment:
@@ -587,7 +587,7 @@ class _TicketCardsWidgetState extends State<TicketCardsWidget> {
                                           child: Padding(
                                             padding:
                                                 EdgeInsetsDirectional.fromSTEB(
-                                                    0.0, 175.0, 0.0, 0.0),
+                                                    0.0, 172.0, 0.0, 0.0),
                                             child: Column(
                                               mainAxisSize: MainAxisSize.min,
                                               mainAxisAlignment:
@@ -1531,7 +1531,7 @@ class _TicketCardsWidgetState extends State<TicketCardsWidget> {
                                           child: Padding(
                                             padding:
                                                 EdgeInsetsDirectional.fromSTEB(
-                                                    5.0, 131.0, 5.0, 15.0),
+                                                    5.0, 128.0, 5.0, 15.0),
                                             child: Column(
                                               mainAxisSize: MainAxisSize.min,
                                               mainAxisAlignment:
@@ -1607,7 +1607,7 @@ class _TicketCardsWidgetState extends State<TicketCardsWidget> {
                                           child: Padding(
                                             padding:
                                                 EdgeInsetsDirectional.fromSTEB(
-                                                    0.0, 175.0, 0.0, 0.0),
+                                                    0.0, 172.0, 0.0, 0.0),
                                             child: Column(
                                               mainAxisSize: MainAxisSize.min,
                                               mainAxisAlignment:
@@ -2551,7 +2551,7 @@ class _TicketCardsWidgetState extends State<TicketCardsWidget> {
                                           child: Padding(
                                             padding:
                                                 EdgeInsetsDirectional.fromSTEB(
-                                                    5.0, 131.0, 5.0, 15.0),
+                                                    5.0, 128.0, 5.0, 15.0),
                                             child: Column(
                                               mainAxisSize: MainAxisSize.min,
                                               mainAxisAlignment:
@@ -2627,7 +2627,7 @@ class _TicketCardsWidgetState extends State<TicketCardsWidget> {
                                           child: Padding(
                                             padding:
                                                 EdgeInsetsDirectional.fromSTEB(
-                                                    0.0, 175.0, 0.0, 0.0),
+                                                    0.0, 172.0, 0.0, 0.0),
                                             child: Column(
                                               mainAxisSize: MainAxisSize.min,
                                               mainAxisAlignment:
