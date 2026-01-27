@@ -767,7 +767,7 @@ class _TicketDetailsWidgetState extends State<TicketDetailsWidget> {
                                       ),
                                 ),
                                 Text(
-                                  '\$185.50',
+                                  '\$445',
                                   style: FlutterFlowTheme.of(context)
                                       .bodyMedium
                                       .override(
@@ -825,7 +825,7 @@ class _TicketDetailsWidgetState extends State<TicketDetailsWidget> {
                                       ),
                                 ),
                                 Text(
-                                  '\$94.39',
+                                  '\$45',
                                   style: FlutterFlowTheme.of(context)
                                       .bodyMedium
                                       .override(
@@ -883,7 +883,7 @@ class _TicketDetailsWidgetState extends State<TicketDetailsWidget> {
                                       ),
                                 ),
                                 Text(
-                                  '\$279.89',
+                                  '\$490',
                                   style: FlutterFlowTheme.of(context)
                                       .bodyMedium
                                       .override(

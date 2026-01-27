@@ -6,6 +6,8 @@ abstract class FFAppConstants {
   static const int tick2 = 8;
   static const int tick3 = 9;
   static const String eventName = 'BTS WORLD TOUR \'ARIRANG\' IN LOS ANGELES';
+  static const String eventNameLine1 = 'BTS WORLD TOUR \'ARIRANG\' IN';
+  static const String eventNameLine2 = 'LOS ANGELES';
   static const String eventVenue = 'SoFi Stadium';
   static const String eventSchedule = 'Sat, Sep 05, 2026, 8:00pm';
   static const String eventVenue2 = 'SoFi Stadium, Inglewood, CA';
