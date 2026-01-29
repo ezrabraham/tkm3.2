@@ -9,12 +9,12 @@ abstract class FFAppConstants {
   static const String eventNameLine1 = 'BTS WORLD TOUR \'ARIRANG\' IN';
   static const String eventNameLine2 = 'ARLINGTON';
   static const String eventVenue = 'AT&T Stadium';
-  static const String eventSchedule = 'Sun, Aug 16, 2026, 8:00pm';
+  static const String eventSchedule = 'Sat, Aug 15, 2026, 8:00pm';
   static const String eventVenue2 = 'AT&T Stadium, Arlington, TX';
   static const String eventPicture = 'assets/images/BTS-01.png';
   static const String topBar = 'Standard  Admission';
   static const String innerDetails =
-      'Sun, Aug 16, 2026, 8:00pm -  AT&T Stadium, Arlington, TX';
+      'Sat, Aug 15, 2026, 8:00pm -  AT&T Stadium, Arlington, TX';
   static const String seatTag = 'Zone: Lower Level Seating';
   static const String eventname2 = 'BTS WORLD TOUR \'ARIRANG\' IN ARLINGTON';
   static const String seat1 = '-';
@@ -23,6 +23,6 @@ abstract class FFAppConstants {
   ///
   ///
   static const String eventName3 = 'BTS WORLD TOUR \'ARIRANG\' IN ARLINGTON';
-  static const String locateDate = 'Arlington, TX\nSun, Aug 16, 2026, 8:00pm';
+  static const String locateDate = 'Arlington, TX\nSat, Aug 15, 2026, 8:00pm';
   static const String location = 'Arlington, TX';
 }
