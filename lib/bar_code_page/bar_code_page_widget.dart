@@ -806,7 +806,7 @@ class _BarCodePageWidgetState extends State<BarCodePageWidget> {
                                             child: Row(
                                               mainAxisSize: MainAxisSize.max,
                                               mainAxisAlignment:
-                                                  MainAxisAlignment.start,
+                                                  MainAxisAlignment.spaceAround,
                                               crossAxisAlignment:
                                                   CrossAxisAlignment.start,
                                               children: [
@@ -881,15 +881,10 @@ class _BarCodePageWidgetState extends State<BarCodePageWidget> {
                                                     ),
                                                   ],
                                                 ),
-                                                Expanded(
-                                                  child: Column(
-                                                    mainAxisSize:
-                                                        MainAxisSize.max,
-                                                    mainAxisAlignment:
-                                                        MainAxisAlignment.center,
-                                                    crossAxisAlignment:
-                                                        CrossAxisAlignment.center,
-                                                    children: [
+                                                Column(
+                                                  mainAxisSize:
+                                                      MainAxisSize.max,
+                                                  children: [
                                                       Padding(
                                                         padding:
                                                             EdgeInsetsDirectional
@@ -924,11 +919,9 @@ class _BarCodePageWidgetState extends State<BarCodePageWidget> {
                                                                       .bodyMedium
                                                                       .fontStyle,
                                                             ),
-                                                            textAlign: TextAlign.center,
                                                         ),
                                                       ),
                                                     ],
-                                                  ),
                                                 ),
                                               ],
                                             ),
@@ -1369,7 +1362,7 @@ class _BarCodePageWidgetState extends State<BarCodePageWidget> {
                                             child: Row(
                                               mainAxisSize: MainAxisSize.max,
                                               mainAxisAlignment:
-                                                  MainAxisAlignment.start,
+                                                  MainAxisAlignment.spaceAround,
                                               crossAxisAlignment:
                                                   CrossAxisAlignment.start,
                                               children: [
@@ -1444,15 +1437,10 @@ class _BarCodePageWidgetState extends State<BarCodePageWidget> {
                                                     ),
                                                   ],
                                                 ),
-                                                Expanded(
-                                                  child: Column(
-                                                    mainAxisSize:
-                                                        MainAxisSize.max,
-                                                    mainAxisAlignment:
-                                                        MainAxisAlignment.center,
-                                                    crossAxisAlignment:
-                                                        CrossAxisAlignment.center,
-                                                    children: [
+                                                Column(
+                                                  mainAxisSize:
+                                                      MainAxisSize.max,
+                                                  children: [
                                                       Padding(
                                                         padding:
                                                             EdgeInsetsDirectional
@@ -1487,11 +1475,9 @@ class _BarCodePageWidgetState extends State<BarCodePageWidget> {
                                                                       .bodyMedium
                                                                       .fontStyle,
                                                             ),
-                                                            textAlign: TextAlign.center,
                                                         ),
                                                       ),
                                                     ],
-                                                  ),
                                                 ),
                                               ],
                                             ),

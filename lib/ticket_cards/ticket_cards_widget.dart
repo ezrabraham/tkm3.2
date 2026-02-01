@@ -1103,7 +1103,7 @@ class _TicketCardsWidgetState extends State<TicketCardsWidget> {
                                             child: Row(
                                               mainAxisSize: MainAxisSize.max,
                                               mainAxisAlignment:
-                                                  MainAxisAlignment.start,
+                                                  MainAxisAlignment.spaceAround,
                                               crossAxisAlignment:
                                                   CrossAxisAlignment.start,
                                               children: [
@@ -1178,15 +1178,10 @@ class _TicketCardsWidgetState extends State<TicketCardsWidget> {
                                                     ),
                                                   ],
                                                 ),
-                                                Expanded(
-                                                  child: Column(
-                                                    mainAxisSize:
-                                                        MainAxisSize.max,
-                                                    mainAxisAlignment:
-                                                        MainAxisAlignment.center,
-                                                    crossAxisAlignment:
-                                                        CrossAxisAlignment.center,
-                                                    children: [
+                                                Column(
+                                                  mainAxisSize:
+                                                      MainAxisSize.max,
+                                                  children: [
                                                       Padding(
                                                         padding:
                                                             EdgeInsetsDirectional
@@ -1221,11 +1216,9 @@ class _TicketCardsWidgetState extends State<TicketCardsWidget> {
                                                                       .bodyMedium
                                                                       .fontStyle,
                                                             ),
-                                                            textAlign: TextAlign.center,
                                                         ),
                                                       ),
                                                     ],
-                                                  ),
                                                 ),
                                               ],
                                             ),
@@ -1948,7 +1941,7 @@ class _TicketCardsWidgetState extends State<TicketCardsWidget> {
                                             child: Row(
                                               mainAxisSize: MainAxisSize.max,
                                               mainAxisAlignment:
-                                                  MainAxisAlignment.start,
+                                                  MainAxisAlignment.spaceAround,
                                               crossAxisAlignment:
                                                   CrossAxisAlignment.start,
                                               children: [
@@ -2023,15 +2016,10 @@ class _TicketCardsWidgetState extends State<TicketCardsWidget> {
                                                     ),
                                                   ],
                                                 ),
-                                                Expanded(
-                                                  child: Column(
-                                                    mainAxisSize:
-                                                        MainAxisSize.max,
-                                                    mainAxisAlignment:
-                                                        MainAxisAlignment.center,
-                                                    crossAxisAlignment:
-                                                        CrossAxisAlignment.center,
-                                                    children: [
+                                                Column(
+                                                  mainAxisSize:
+                                                      MainAxisSize.max,
+                                                  children: [
                                                       Padding(
                                                         padding:
                                                             EdgeInsetsDirectional
@@ -2066,11 +2054,9 @@ class _TicketCardsWidgetState extends State<TicketCardsWidget> {
                                                                       .bodyMedium
                                                                       .fontStyle,
                                                             ),
-                                                            textAlign: TextAlign.center,
                                                         ),
                                                       ),
                                                     ],
-                                                  ),
                                                 ),
                                               ],
                                             ),
