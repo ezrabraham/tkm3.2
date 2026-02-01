@@ -353,7 +353,7 @@ class _TicketCardsWidgetState extends State<TicketCardsWidget> {
                                                                     0.0,
                                                                     0.0),
                                                         child: Text(
-                                                          'General Assembly',
+                                                          'General Admission',
                                                         style: FlutterFlowTheme
                                                                 .of(context)
                                                             .bodyMedium
@@ -1196,7 +1196,7 @@ class _TicketCardsWidgetState extends State<TicketCardsWidget> {
                                                                     0.0,
                                                                     0.0),
                                                         child: Text(
-                                                          'General Assembly',
+                                                          'General Admission',
                                                         style: FlutterFlowTheme
                                                                 .of(context)
                                                             .bodyMedium
@@ -2041,7 +2041,7 @@ class _TicketCardsWidgetState extends State<TicketCardsWidget> {
                                                                     0.0,
                                                                     0.0),
                                                         child: Text(
-                                                          'General Assembly',
+                                                          'General Admission',
                                                         style: FlutterFlowTheme
                                                                 .of(context)
                                                             .bodyMedium

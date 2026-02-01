@@ -13,7 +13,7 @@ abstract class FFAppConstants {
   static const String topBar = 'Artist Presale';
   static const String innerDetails =
       'Wed, Sep 9, 2026, 8:00pm -  Madison Square Garden, New York, NY';
-  static const String seatTag = 'General Assembly';
+  static const String seatTag = 'General Admission';
   static const String eventname2 = 'Harry Styles: Together, Together';
   static const String seat1 = '-';
   static const bool isGeneralAdmission = true;
