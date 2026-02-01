@@ -146,7 +146,7 @@ class _TicketDetailsWidgetState extends State<TicketDetailsWidget> {
                                   padding: EdgeInsetsDirectional.fromSTEB(
                                       0.0, 0.0, 0.0, 5.0),
                                   child: Text(
-                                    'SEC ${FFAppConstants.sec}, ROW ${FFAppConstants.row}, SEATS  ${FFAppConstants.tick1} / ${FFAppConstants.tick2} / ${FFAppConstants.tick3}',
+                                    'SEC ${FFAppConstants.sec}, General Admission',
                                     style: FlutterFlowTheme.of(context)
                                         .bodyMedium
                                         .override(
