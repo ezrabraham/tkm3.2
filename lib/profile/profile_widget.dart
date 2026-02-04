@@ -418,7 +418,7 @@ class _ProfileWidgetState extends State<ProfileWidget> {
                                               EdgeInsetsDirectional.fromSTEB(
                                                   0.0, 0.0, 10.0, 0.0),
                                           child: Text(
-                                            'MONTREAL, QC',
+                                            'Tampa, FL',
                                             textAlign: TextAlign.center,
                                             style: FlutterFlowTheme.of(context)
                                                 .bodyMedium
