@@ -15,7 +15,7 @@ abstract class FFAppConstants {
   static const String topBar = 'Artist Presale';
   static const String innerDetails =
       'Sat, Apr 25, 2026, 8:00pm -  Raymond James Stadium, Tampa, FL';
-  static const String seatTag = 'Zone: Lower Level Seating';
+  static const String seatTag = 'Zone: Upper';
   static const String eventname2 = 'BTS WORLD TOUR \'ARIRANG\' IN TAMPA';
   static const String seat1 = '-';
   static const bool isGeneralAdmission = false;
