@@ -580,7 +580,7 @@ class _TicketDetailsWidgetState extends State<TicketDetailsWidget> {
                               padding: EdgeInsetsDirectional.fromSTEB(
                                   0.0, 0.0, 0.0, 10.0),
                               child: Text(
-                                '64-35245/TPA',
+                                '64-35366/JFK',
                                 style: FlutterFlowTheme.of(context)
                                     .bodyMedium
                                     .override(
@@ -703,7 +703,7 @@ class _TicketDetailsWidgetState extends State<TicketDetailsWidget> {
                               padding: EdgeInsetsDirectional.fromSTEB(
                                   0.0, 0.0, 0.0, 5.0),
                               child: Text(
-                                'Sat, Jan. 24 2026  -  11:15 AM',
+                                'Sat, Jan. 24 2026  -  11:22 AM',
                                 style: FlutterFlowTheme.of(context)
                                     .bodyMedium
                                     .override(
