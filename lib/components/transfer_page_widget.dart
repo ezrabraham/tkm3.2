@@ -376,7 +376,7 @@ class _TransferPageWidgetState extends State<TransferPageWidget> {
                                       ),
                                 ),
                                 Text(
-                                  FFAppConstants.tick1.toString(),
+                                  FFAppConstants.isGeneralAdmission ? '-' : FFAppConstants.tick1.toString(),
                                   textAlign: TextAlign.center,
                                   style: FlutterFlowTheme.of(context)
                                       .bodyLarge
@@ -529,7 +529,7 @@ class _TransferPageWidgetState extends State<TransferPageWidget> {
                                       ),
                                 ),
                                 Text(
-                                  FFAppConstants.tick2.toString(),
+                                  FFAppConstants.isGeneralAdmission ? '-' : FFAppConstants.tick2.toString(),
                                   textAlign: TextAlign.center,
                                   style: FlutterFlowTheme.of(context)
                                       .bodyLarge
@@ -682,7 +682,7 @@ class _TransferPageWidgetState extends State<TransferPageWidget> {
                                       ),
                                 ),
                                 Text(
-                                  FFAppConstants.tick3.toString(),
+                                  FFAppConstants.isGeneralAdmission ? '-' : FFAppConstants.tick3.toString(),
                                   textAlign: TextAlign.center,
                                   style: FlutterFlowTheme.of(context)
                                       .bodyLarge
