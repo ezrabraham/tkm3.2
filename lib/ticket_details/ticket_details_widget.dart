@@ -703,7 +703,7 @@ class _TicketDetailsWidgetState extends State<TicketDetailsWidget> {
                               padding: EdgeInsetsDirectional.fromSTEB(
                                   0.0, 0.0, 0.0, 5.0),
                               child: Text(
-                                'Sat, Jan. 24 2026  -  11:22 AM',
+                                'Tue, Feb 3, 2026 - 11:22 AM',
                                 style: FlutterFlowTheme.of(context)
                                     .bodyMedium
                                     .override(
@@ -789,7 +789,7 @@ class _TicketDetailsWidgetState extends State<TicketDetailsWidget> {
                                       ),
                                 ),
                                 Text(
-                                  '\$185.50',
+                                  '\$1,299.30',
                                   style: FlutterFlowTheme.of(context)
                                       .bodyMedium
                                       .override(
@@ -847,7 +847,7 @@ class _TicketDetailsWidgetState extends State<TicketDetailsWidget> {
                                       ),
                                 ),
                                 Text(
-                                  '\$94.39',
+                                  '\$527.49',
                                   style: FlutterFlowTheme.of(context)
                                       .bodyMedium
                                       .override(
@@ -905,7 +905,7 @@ class _TicketDetailsWidgetState extends State<TicketDetailsWidget> {
                                       ),
                                 ),
                                 Text(
-                                  '\$279.89',
+                                  '\$1,826.79',
                                   style: FlutterFlowTheme.of(context)
                                       .bodyMedium
                                       .override(
