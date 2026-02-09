@@ -556,7 +556,7 @@ class _TicketCardsWidgetState extends State<TicketCardsWidget> {
                                           child: Padding(
                                             padding:
                                                 EdgeInsetsDirectional.fromSTEB(
-                                                    5.0, 126.0, 5.0, 0.0),
+                                                    5.0, 145.0, 5.0, 0.0),
                                             child: Column(
                                               mainAxisSize: MainAxisSize.max,
                                               mainAxisAlignment:
@@ -985,7 +985,8 @@ class _TicketCardsWidgetState extends State<TicketCardsWidget> {
                                                 .secondaryText,
                                             size: 8.0,
                                           ),
-                                          Icon(
+                                          if (FFAppConstants.numberOfTickets >= 3)
+                                            Icon(
                                             Icons.circle_rounded,
                                             color: FlutterFlowTheme.of(context)
                                                 .secondaryText,
@@ -1563,7 +1564,7 @@ class _TicketCardsWidgetState extends State<TicketCardsWidget> {
                                           child: Padding(
                                             padding:
                                                 EdgeInsetsDirectional.fromSTEB(
-                                                    5.0, 126.0, 5.0, 0.0),
+                                                    5.0, 145.0, 5.0, 0.0),
                                             child: Column(
                                               mainAxisSize: MainAxisSize.max,
                                               mainAxisAlignment:
@@ -1992,7 +1993,8 @@ class _TicketCardsWidgetState extends State<TicketCardsWidget> {
                                                 .secondaryText,
                                             size: 8.0,
                                           ),
-                                          Icon(
+                                          if (FFAppConstants.numberOfTickets >= 3)
+                                            Icon(
                                             Icons.circle_rounded,
                                             color: FlutterFlowTheme.of(context)
                                                 .secondaryText,
@@ -2571,7 +2573,7 @@ class _TicketCardsWidgetState extends State<TicketCardsWidget> {
                                           child: Padding(
                                             padding:
                                                 EdgeInsetsDirectional.fromSTEB(
-                                                    5.0, 126.0, 5.0, 0.0),
+                                                    5.0, 145.0, 5.0, 0.0),
                                             child: Column(
                                               mainAxisSize: MainAxisSize.max,
                                               mainAxisAlignment:
@@ -3000,7 +3002,8 @@ class _TicketCardsWidgetState extends State<TicketCardsWidget> {
                                                 .secondaryText,
                                             size: 8.0,
                                           ),
-                                          Icon(
+                                          if (FFAppConstants.numberOfTickets >= 3)
+                                            Icon(
                                             Icons.circle_rounded,
                                             color: FlutterFlowTheme.of(context)
                                                 .secondaryText,

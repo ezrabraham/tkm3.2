@@ -678,7 +678,7 @@ class _BarCodePageWidgetState extends State<BarCodePageWidget> {
                                                 EdgeInsetsDirectional.fromSTEB(
                                                     30.0, 0.0, 30.0, 0.0),
                                             child: Text(
-                                              '1 of 3',
+                                              '1 of ${FFAppConstants.numberOfTickets}',
                                               style:
                                                   FlutterFlowTheme.of(context)
                                                       .bodyMedium
@@ -1379,7 +1379,7 @@ class _BarCodePageWidgetState extends State<BarCodePageWidget> {
                                                 EdgeInsetsDirectional.fromSTEB(
                                                     30.0, 0.0, 30.0, 0.0),
                                             child: Text(
-                                              '2 of 3',
+                                              '2 of ${FFAppConstants.numberOfTickets}',
                                               style:
                                                   FlutterFlowTheme.of(context)
                                                       .bodyMedium
@@ -2081,7 +2081,7 @@ class _BarCodePageWidgetState extends State<BarCodePageWidget> {
                                                 EdgeInsetsDirectional.fromSTEB(
                                                     30.0, 0.0, 30.0, 0.0),
                                             child: Text(
-                                              '3 of 3',
+                                              '3 of ${FFAppConstants.numberOfTickets}',
                                               style:
                                                   FlutterFlowTheme.of(context)
                                                       .bodyMedium
@@ -2282,7 +2282,7 @@ class _BarCodePageWidgetState extends State<BarCodePageWidget> {
                       mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                       children: [
                         Text(
-                          'MY  TICKETS (3)',
+                          'MY  TICKETS (${FFAppConstants.numberOfTickets})',
                           style:
                               FlutterFlowTheme.of(context).bodyMedium.override(
                                     font: GoogleFonts.plusJakartaSans(
