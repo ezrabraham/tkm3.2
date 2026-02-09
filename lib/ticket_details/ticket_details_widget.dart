@@ -148,7 +148,7 @@ class _TicketDetailsWidgetState extends State<TicketDetailsWidget> {
                                   child: Text(
                                     FFAppConstants.isGeneralAdmission
                                         ? 'SEC ${FFAppConstants.sec}, General Admission'
-                                        : 'SEC ${FFAppConstants.sec}, ROW ${FFAppConstants.row}, SEATS ${FFAppConstants.tick1} / ${FFAppConstants.tick2} / ${FFAppConstants.tick3}',
+                                        : 'SEC ${FFAppConstants.sec}, ROW ${FFAppConstants.row}, SEATS ${FFAppConstants.tick1} / ${FFAppConstants.tick2}${FFAppConstants.numberOfTickets >= 3 ? ' / ${FFAppConstants.tick3}' : ''}',
                                     style: FlutterFlowTheme.of(context)
                                         .bodyMedium
                                         .override(

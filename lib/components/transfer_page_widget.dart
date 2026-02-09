@@ -279,7 +279,7 @@ class _TransferPageWidgetState extends State<TransferPageWidget> {
                               ),
                             ),
                             Text(
-                              '3  Tickets',
+                              '${FFAppConstants.numberOfTickets}  Tickets',
                               style: FlutterFlowTheme.of(context)
                                   .bodyMedium
                                   .override(
@@ -627,7 +627,8 @@ class _TransferPageWidgetState extends State<TransferPageWidget> {
                         ),
                       ],
                     ),
-                    Column(
+                    if (FFAppConstants.numberOfTickets >= 3)
+                      Column(
                       mainAxisSize: MainAxisSize.max,
                       children: [
                         InkWell(
@@ -667,11 +668,11 @@ class _TransferPageWidgetState extends State<TransferPageWidget> {
                                               FlutterFlowTheme.of(context)
                                                   .bodyLarge
                                                   .fontWeight,
-                                          fontStyle:
-                                              FlutterFlowTheme.of(context)
-                                                  .bodyLarge
-                                                  .fontStyle,
-                                        ),
+                                        fontStyle:
+                                            FlutterFlowTheme.of(context)
+                                                .bodyLarge
+                                                .fontStyle,
+                                      ),
                                         letterSpacing: 0.0,
                                         fontWeight: FlutterFlowTheme.of(context)
                                             .bodyLarge
@@ -679,7 +680,7 @@ class _TransferPageWidgetState extends State<TransferPageWidget> {
                                         fontStyle: FlutterFlowTheme.of(context)
                                             .bodyLarge
                                             .fontStyle,
-                                      ),
+                                  ),
                                 ),
                                 Text(
                                   FFAppConstants.isGeneralAdmission ? '-' : FFAppConstants.tick3.toString(),

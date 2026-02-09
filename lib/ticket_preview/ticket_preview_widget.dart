@@ -394,7 +394,7 @@ class _TicketPreviewWidgetState extends State<TicketPreviewWidget> {
                               ),
                             ),
                             Text(
-                              '3  Tickets',
+                              '${FFAppConstants.numberOfTickets}  Tickets',
                               style: FlutterFlowTheme.of(context)
                                   .bodyMedium
                                   .override(

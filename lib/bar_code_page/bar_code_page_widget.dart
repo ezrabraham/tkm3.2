@@ -1566,6 +1566,7 @@ class _BarCodePageWidgetState extends State<BarCodePageWidget> {
                             ),
                           ),
                         ),
+                        if (FFAppConstants.numberOfTickets >= 3)
                         Padding(
                           padding: EdgeInsetsDirectional.fromSTEB(
                               0.0, 80.0, 0.0, 0.0),

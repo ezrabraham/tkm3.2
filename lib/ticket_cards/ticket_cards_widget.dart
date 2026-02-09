@@ -2193,6 +2193,7 @@ class _TicketCardsWidgetState extends State<TicketCardsWidget> {
                             ),
                           ),
                         ),
+                        if (FFAppConstants.numberOfTickets >= 3)
                         Padding(
                           padding: EdgeInsetsDirectional.fromSTEB(
                               0.0, 20.0, 0.0, 0.0),

@@ -136,7 +136,7 @@ class _TransferPageCopyWidgetState extends State<TransferPageCopyWidget> {
                               ),
                             ),
                             Text(
-                              '3  Tickets',
+                              '${FFAppConstants.numberOfTickets}  Tickets',
                               style: FlutterFlowTheme.of(context)
                                   .bodyMedium
                                   .override(
