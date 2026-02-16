@@ -836,7 +836,7 @@ class _TicketCardsWidgetState extends State<TicketCardsWidget> {
                                                   width: 250.0,
                                                   height: 35.0,
                                                   decoration: BoxDecoration(
-                                                    color: Color(0xFF014DE6),
+                                                    color: Color(0xFF000000),
                                                   ),
                                                   child: Row(
                                                     mainAxisSize:
@@ -1844,7 +1844,7 @@ class _TicketCardsWidgetState extends State<TicketCardsWidget> {
                                                   width: 250.0,
                                                   height: 35.0,
                                                   decoration: BoxDecoration(
-                                                    color: Color(0xFF014DE6),
+                                                    color: Color(0xFF000000),
                                                   ),
                                                   child: Row(
                                                     mainAxisSize:
@@ -2853,7 +2853,7 @@ class _TicketCardsWidgetState extends State<TicketCardsWidget> {
                                                   width: 250.0,
                                                   height: 35.0,
                                                   decoration: BoxDecoration(
-                                                    color: Color(0xFF014DE6),
+                                                    color: Color(0xFF000000),
                                                   ),
                                                   child: Row(
                                                     mainAxisSize:
