@@ -992,6 +992,13 @@ class _TicketCardsWidgetState extends State<TicketCardsWidget> {
                                                 .secondaryText,
                                             size: 8.0,
                                           ),
+                                          if (FFAppConstants.numberOfTickets >= 4)
+                                            Icon(
+                                            Icons.circle_rounded,
+                                            color: FlutterFlowTheme.of(context)
+                                                .secondaryText,
+                                            size: 8.0,
+                                          ),
                                         ].divide(SizedBox(width: 5.0)),
                                       ),
                                     ),
@@ -2000,6 +2007,13 @@ class _TicketCardsWidgetState extends State<TicketCardsWidget> {
                                                 .secondaryText,
                                             size: 8.0,
                                           ),
+                                          if (FFAppConstants.numberOfTickets >= 4)
+                                            Icon(
+                                            Icons.circle_rounded,
+                                            color: FlutterFlowTheme.of(context)
+                                                .secondaryText,
+                                            size: 8.0,
+                                          ),
                                         ].divide(SizedBox(width: 5.0)),
                                       ),
                                     ),
@@ -2353,7 +2367,165 @@ class _TicketCardsWidgetState extends State<TicketCardsWidget> {
                                                                       .bodyMedium
                                                                       .fontStyle,
                                                             ),
-                                                      ),
+                        if (FFAppConstants.numberOfTickets >= 4)
+                        Padding(
+                          padding: EdgeInsetsDirectional.fromSTEB(
+                              0.0, 20.0, 0.0, 0.0),
+                          child: Container(
+                            width: MediaQuery.of(context).size.width,
+                            height: 277.0,
+                            decoration: BoxDecoration(
+                              color: FlutterFlowTheme.of(context).primaryText,
+                            ),
+                            child: Padding(
+                              padding: EdgeInsetsDirectional.fromSTEB(
+                                  20.0, 0.0, 20.0, 0.0),
+                              child: SingleChildScrollView(
+                                child: Column(
+                                  mainAxisSize: MainAxisSize.max,
+                                  children: [
+                                    Container(
+                                      width: 320.0,
+                                      height: 40.0,
+                                      decoration: BoxDecoration(
+                                        color: Color(0xFF014DE6),
+                                        boxShadow: [
+                                          BoxShadow(
+                                            blurRadius: 4.0,
+                                            color: Color(0x33000000),
+                                            offset: Offset(
+                                              0.0,
+                                              2.0,
+                                            ),
+                                          )
+                                        ],
+                                        borderRadius: BorderRadius.only(
+                                          bottomLeft: Radius.circular(0.0),
+                                          bottomRight: Radius.circular(0.0),
+                                          topLeft: Radius.circular(15.0),
+                                          topRight: Radius.circular(15.0),
+                                        ),
+                                      ),
+                                      alignment: AlignmentDirectional(0.0, 0.0),
+                                      child: Text(
+                                        FFAppConstants.topBar,
+                                        textAlign: TextAlign.center,
+                                        style: FlutterFlowTheme.of(context)
+                                            .bodyMedium
+                                            .override(
+                                              font: GoogleFonts.plusJakartaSans(
+                                                fontWeight:
+                                                    FlutterFlowTheme.of(context)
+                                                        .bodyMedium
+                                                        .fontWeight,
+                                                fontStyle:
+                                                    FlutterFlowTheme.of(context)
+                                                        .bodyMedium
+                                                        .fontStyle,
+                                              ),
+                                              letterSpacing: 0.0,
+                                              fontWeight:
+                                                  FlutterFlowTheme.of(context)
+                                                      .bodyMedium
+                                                      .fontWeight,
+                                              fontStyle:
+                                                  FlutterFlowTheme.of(context)
+                                                      .bodyMedium
+                                                      .fontStyle,
+                                            ),
+                                      ),
+                                    ),
+                                    Container(
+                                      width: 320.0,
+                                      height: 80.0,
+                                      decoration: BoxDecoration(
+                                        color: Color(0xFF014DE6),
+                                        border: Border.all(
+                                          color: Color(0xFF026CDF),
+                                        ),
+                                      ),
+                                      child: Column(
+                                        mainAxisSize: MainAxisSize.max,
+                                        children: [
+                                          Padding(
+                                            padding:
+                                                EdgeInsetsDirectional.fromSTEB(
+                                                    0.0, 15.0, 0.0, 0.0),
+                                            child: Row(
+                                              mainAxisSize: MainAxisSize.max,
+                                              mainAxisAlignment:
+                                                  MainAxisAlignment.spaceAround,
+                                              crossAxisAlignment:
+                                                  CrossAxisAlignment.start,
+                                              children: [
+                                                Column(
+                                                  mainAxisSize:
+                                                      MainAxisSize.max,
+                                                  children: [
+                                                    Text(
+                                                      'SEC',
+                                                      style: FlutterFlowTheme
+                                                              .of(context)
+                                                          .bodyMedium
+                                                          .override(
+                                                            font: GoogleFonts
+                                                                .plusJakartaSans(
+                                                              fontWeight:
+                                                                  FontWeight
+                                                                      .bold,
+                                                              fontStyle:
+                                                                  FlutterFlowTheme.of(
+                                                                          context)
+                                                                      .bodyMedium
+                                                                      .fontStyle,
+                                                            ),
+                                                            letterSpacing: 0.0,
+                                                            fontWeight:
+                                                                FontWeight.bold,
+                                                            fontStyle:
+                                                                FlutterFlowTheme.of(
+                                                                        context)
+                                                                    .bodyMedium
+                                                                    .fontStyle,
+                                                          ),
+                                                    ),
+                                                    Padding(
+                                                      padding:
+                                                          EdgeInsetsDirectional
+                                                              .fromSTEB(
+                                                                  0.0,
+                                                                  8.0,
+                                                                  0.0,
+                                                                  0.0),
+                                                      child: Text(
+                                                        FFAppConstants.sec,
+                                                        style: FlutterFlowTheme
+                                                                .of(context)
+                                                            .bodyMedium
+                                                            .override(
+                                                              font: GoogleFonts
+                                                                  .plusJakartaSans(
+                                                                fontWeight:
+                                                                    FontWeight
+                                                                        .normal,
+                                                                fontStyle: FlutterFlowTheme.of(
+                                                                        context)
+                                                                    .bodyMedium
+                                                                    .fontStyle,
+                                                              ),
+                                                              fontSize: 16.0,
+                                                              letterSpacing:
+                                                                  0.0,
+                                                              fontWeight:
+                                                                  FontWeight
+                                                                      .normal,
+                                                              fontStyle:
+                                                                  FlutterFlowTheme.of(
+                                                                          context)
+                                                                      .bodyMedium
+                                                                      .fontStyle,
+                                                            ),
+                        ),
                                                     ),
                                                   ],
                                                 ),
@@ -2513,7 +2685,7 @@ class _TicketCardsWidgetState extends State<TicketCardsWidget> {
                                                                     0.0,
                                                                     0.0),
                                                         child: Text(
-                                                          FFAppConstants.tick3.toString(),
+                                                          FFAppConstants.tick4.toString(),
                                                           style: FlutterFlowTheme
                                                                   .of(context)
                                                               .bodyMedium
@@ -3003,6 +3175,13 @@ class _TicketCardsWidgetState extends State<TicketCardsWidget> {
                                             size: 8.0,
                                           ),
                                           if (FFAppConstants.numberOfTickets >= 3)
+                                            Icon(
+                                            Icons.circle_rounded,
+                                            color: FlutterFlowTheme.of(context)
+                                                .secondaryText,
+                                            size: 8.0,
+                                          ),
+                                          if (FFAppConstants.numberOfTickets >= 4)
                                             Icon(
                                             Icons.circle_rounded,
                                             color: FlutterFlowTheme.of(context)
