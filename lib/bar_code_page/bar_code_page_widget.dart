@@ -259,7 +259,7 @@ class _BarCodePageWidgetState extends State<BarCodePageWidget> {
                                                       MainAxisSize.max,
                                                   children: [
                                                     Text(
-                                                      'SEC',
+                                                      FFAppConstants.secLabel,
                                                       style: FlutterFlowTheme
                                                               .of(context)
                                                           .bodyMedium
@@ -374,7 +374,7 @@ class _BarCodePageWidgetState extends State<BarCodePageWidget> {
                                                         MainAxisSize.max,
                                                     children: [
                                                       Text(
-                                                        'ROW',
+                                                        FFAppConstants.rowLabel,
                                                         style: FlutterFlowTheme
                                                                 .of(context)
                                                             .bodyMedium
@@ -960,7 +960,7 @@ class _BarCodePageWidgetState extends State<BarCodePageWidget> {
                                                       MainAxisSize.max,
                                                   children: [
                                                     Text(
-                                                      'SEC',
+                                                      FFAppConstants.secLabel,
                                                       style: FlutterFlowTheme
                                                               .of(context)
                                                           .bodyMedium
@@ -1075,7 +1075,7 @@ class _BarCodePageWidgetState extends State<BarCodePageWidget> {
                                                         MainAxisSize.max,
                                                     children: [
                                                       Text(
-                                                        'ROW',
+                                                        FFAppConstants.rowLabel,
                                                         style: FlutterFlowTheme
                                                                 .of(context)
                                                             .bodyMedium
@@ -1662,7 +1662,7 @@ class _BarCodePageWidgetState extends State<BarCodePageWidget> {
                                                       MainAxisSize.max,
                                                   children: [
                                                     Text(
-                                                      'SEC',
+                                                      FFAppConstants.secLabel,
                                                       style: FlutterFlowTheme
                                                               .of(context)
                                                           .bodyMedium
@@ -1777,7 +1777,7 @@ class _BarCodePageWidgetState extends State<BarCodePageWidget> {
                                                         MainAxisSize.max,
                                                     children: [
                                                       Text(
-                                                        'ROW',
+                                                        FFAppConstants.rowLabel,
                                                         style: FlutterFlowTheme
                                                                 .of(context)
                                                             .bodyMedium
@@ -2424,7 +2424,7 @@ class _BarCodePageWidgetState extends State<BarCodePageWidget> {
                                                       MainAxisSize.max,
                                                   children: [
                                                     Text(
-                                                      'SEC',
+                                                      FFAppConstants.secLabel,
                                                       style: FlutterFlowTheme
                                                               .of(context)
                                                           .bodyMedium
@@ -2539,7 +2539,7 @@ class _BarCodePageWidgetState extends State<BarCodePageWidget> {
                                                         MainAxisSize.max,
                                                     children: [
                                                       Text(
-                                                        'ROW',
+                                                        FFAppConstants.rowLabel,
                                                         style: FlutterFlowTheme
                                                                 .of(context)
                                                             .bodyMedium

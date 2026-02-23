@@ -274,7 +274,7 @@ class _TicketCardsWidgetState extends State<TicketCardsWidget> {
                                                       MainAxisSize.max,
                                                   children: [
                                                     Text(
-                                                      'SEC',
+                                                      FFAppConstants.secLabel,
                                                       style: FlutterFlowTheme
                                                               .of(context)
                                                           .bodyMedium
@@ -389,7 +389,7 @@ class _TicketCardsWidgetState extends State<TicketCardsWidget> {
                                                         MainAxisSize.max,
                                                     children: [
                                                       Text(
-                                                        'ROW',
+                                                        FFAppConstants.rowLabel,
                                                         style: FlutterFlowTheme
                                                                 .of(context)
                                                             .bodyMedium
@@ -556,7 +556,7 @@ class _TicketCardsWidgetState extends State<TicketCardsWidget> {
                                           child: Padding(
                                             padding:
                                                 EdgeInsetsDirectional.fromSTEB(
-                                                    5.0, 145.0, 5.0, 0.0),
+                                                    5.0, 130.0, 5.0, 0.0),
                                             child: Column(
                                               mainAxisSize: MainAxisSize.max,
                                               mainAxisAlignment:
@@ -1289,7 +1289,7 @@ class _TicketCardsWidgetState extends State<TicketCardsWidget> {
                                                       MainAxisSize.max,
                                                   children: [
                                                     Text(
-                                                      'SEC',
+                                                      FFAppConstants.secLabel,
                                                       style: FlutterFlowTheme
                                                               .of(context)
                                                           .bodyMedium
@@ -1404,7 +1404,7 @@ class _TicketCardsWidgetState extends State<TicketCardsWidget> {
                                                         MainAxisSize.max,
                                                     children: [
                                                       Text(
-                                                        'ROW',
+                                                        FFAppConstants.rowLabel,
                                                         style: FlutterFlowTheme
                                                                 .of(context)
                                                             .bodyMedium
@@ -1571,7 +1571,7 @@ class _TicketCardsWidgetState extends State<TicketCardsWidget> {
                                           child: Padding(
                                             padding:
                                                 EdgeInsetsDirectional.fromSTEB(
-                                                    5.0, 145.0, 5.0, 0.0),
+                                                    5.0, 130.0, 5.0, 0.0),
                                             child: Column(
                                               mainAxisSize: MainAxisSize.max,
                                               mainAxisAlignment:
@@ -2305,7 +2305,7 @@ class _TicketCardsWidgetState extends State<TicketCardsWidget> {
                                                       MainAxisSize.max,
                                                   children: [
                                                     Text(
-                                                      'SEC',
+                                                      FFAppConstants.secLabel,
                                                       style: FlutterFlowTheme
                                                               .of(context)
                                                           .bodyMedium
@@ -2420,7 +2420,7 @@ class _TicketCardsWidgetState extends State<TicketCardsWidget> {
                                                         MainAxisSize.max,
                                                     children: [
                                                       Text(
-                                                        'ROW',
+                                                        FFAppConstants.rowLabel,
                                                         style: FlutterFlowTheme
                                                                 .of(context)
                                                             .bodyMedium
@@ -2587,7 +2587,7 @@ class _TicketCardsWidgetState extends State<TicketCardsWidget> {
                                           child: Padding(
                                             padding:
                                                 EdgeInsetsDirectional.fromSTEB(
-                                                    5.0, 145.0, 5.0, 0.0),
+                                                    5.0, 130.0, 5.0, 0.0),
                                             child: Column(
                                               mainAxisSize: MainAxisSize.max,
                                               mainAxisAlignment:
@@ -3321,7 +3321,7 @@ class _TicketCardsWidgetState extends State<TicketCardsWidget> {
                                                       MainAxisSize.max,
                                                   children: [
                                                     Text(
-                                                      'SEC',
+                                                      FFAppConstants.secLabel,
                                                       style: FlutterFlowTheme
                                                               .of(context)
                                                           .bodyMedium
@@ -3436,7 +3436,7 @@ class _TicketCardsWidgetState extends State<TicketCardsWidget> {
                                                         MainAxisSize.max,
                                                     children: [
                                                       Text(
-                                                        'ROW',
+                                                        FFAppConstants.rowLabel,
                                                         style: FlutterFlowTheme
                                                                 .of(context)
                                                             .bodyMedium
@@ -3603,7 +3603,7 @@ class _TicketCardsWidgetState extends State<TicketCardsWidget> {
                                           child: Padding(
                                             padding:
                                                 EdgeInsetsDirectional.fromSTEB(
-                                                    5.0, 145.0, 5.0, 0.0),
+                                                    5.0, 130.0, 5.0, 0.0),
                                             child: Column(
                                               mainAxisSize: MainAxisSize.max,
                                               mainAxisAlignment:

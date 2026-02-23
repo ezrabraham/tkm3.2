@@ -15,7 +15,9 @@ abstract class FFAppConstants {
   static const String eventSchedule = 'Sat, Jul 11, 2026, 8:00 PM';
   static const String eventVenue2 = 'Strawberry Arena, Stockholm';
   static const String eventPicture = 'assets/images/badbunny-01.png';
-  static const String topBar = 'BAD BUNNY WORLD TOUR';
+  static const String topBar = 'Standard Tickets';
+  static const String secLabel = 'SEKTION';
+  static const String rowLabel = 'VÄNSTER';
   static const String innerDetails =
       'Sat, Jul 11, 2026, 8:00 PM -  Strawberry Arena, Stockholm';
   static const String seatTag = 'Mobile';

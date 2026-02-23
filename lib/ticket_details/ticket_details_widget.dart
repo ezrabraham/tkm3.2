@@ -147,8 +147,8 @@ class _TicketDetailsWidgetState extends State<TicketDetailsWidget> {
                                       0.0, 0.0, 0.0, 5.0),
                                   child: Text(
                                     FFAppConstants.isGeneralAdmission
-                                        ? 'SEC ${FFAppConstants.sec}, General Admission'
-                                        : 'SEC ${FFAppConstants.sec}, ROW ${FFAppConstants.row}, SEATS ${FFAppConstants.tick1} / ${FFAppConstants.tick2}${FFAppConstants.numberOfTickets >= 3 ? ' / ${FFAppConstants.tick3}' : ''}${FFAppConstants.numberOfTickets >= 4 ? ' / ${FFAppConstants.tick4}' : ''}',
+                                        ? '${FFAppConstants.secLabel} ${FFAppConstants.sec}, General Admission'
+                                        : '${FFAppConstants.secLabel} ${FFAppConstants.sec}, ${FFAppConstants.rowLabel} ${FFAppConstants.row}, SEATS ${FFAppConstants.tick1} / ${FFAppConstants.tick2}${FFAppConstants.numberOfTickets >= 3 ? ' / ${FFAppConstants.tick3}' : ''}${FFAppConstants.numberOfTickets >= 4 ? ' / ${FFAppConstants.tick4}' : ''}',
                                     style: FlutterFlowTheme.of(context)
                                         .bodyMedium
                                         .override(
@@ -345,7 +345,7 @@ class _TicketDetailsWidgetState extends State<TicketDetailsWidget> {
                                   padding: EdgeInsetsDirectional.fromSTEB(
                                       0.0, 5.0, 0.0, 5.0),
                                   child: Text(
-                                    'SEC ${FFAppConstants.sec}',
+                                    '${FFAppConstants.secLabel} ${FFAppConstants.sec}',
                                     style: FlutterFlowTheme.of(context)
                                         .bodyMedium
                                         .override(

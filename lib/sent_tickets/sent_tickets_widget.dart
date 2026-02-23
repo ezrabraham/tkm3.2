@@ -303,7 +303,7 @@ class _SentTicketsWidgetState extends State<SentTicketsWidget>
                                               mainAxisSize: MainAxisSize.max,
                                               children: [
                                                 Text(
-                                                  'SEC',
+                                                  FFAppConstants.secLabel,
                                                   style: FlutterFlowTheme.of(
                                                           context)
                                                       .bodyMedium
@@ -367,7 +367,7 @@ class _SentTicketsWidgetState extends State<SentTicketsWidget>
                                               mainAxisSize: MainAxisSize.max,
                                               children: [
                                                 Text(
-                                                  'ROW',
+                                                  FFAppConstants.rowLabel,
                                                   style: FlutterFlowTheme.of(
                                                           context)
                                                       .bodyMedium
