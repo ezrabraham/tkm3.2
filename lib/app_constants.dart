@@ -1,8 +1,8 @@
 
 abstract class FFAppConstants {
   static const int numberOfTickets = 4;
-  static const String sec = '306';
-  static const String row = '19';
+  static const String sec = '103';
+  static const String row = '7';
   static const int tick1 = 25;
   static const int tick2 = 26;
   static const int tick3 = 27;

@@ -556,7 +556,7 @@ class _TicketCardsWidgetState extends State<TicketCardsWidget> {
                                           child: Padding(
                                             padding:
                                                 EdgeInsetsDirectional.fromSTEB(
-                                                    5.0, 130.0, 5.0, 0.0),
+                                                    5.0, 122.0, 5.0, 0.0),
                                             child: Column(
                                               mainAxisSize: MainAxisSize.max,
                                               mainAxisAlignment:
@@ -1571,7 +1571,7 @@ class _TicketCardsWidgetState extends State<TicketCardsWidget> {
                                           child: Padding(
                                             padding:
                                                 EdgeInsetsDirectional.fromSTEB(
-                                                    5.0, 130.0, 5.0, 0.0),
+                                                    5.0, 122.0, 5.0, 0.0),
                                             child: Column(
                                               mainAxisSize: MainAxisSize.max,
                                               mainAxisAlignment:
@@ -2587,7 +2587,7 @@ class _TicketCardsWidgetState extends State<TicketCardsWidget> {
                                           child: Padding(
                                             padding:
                                                 EdgeInsetsDirectional.fromSTEB(
-                                                    5.0, 130.0, 5.0, 0.0),
+                                                    5.0, 122.0, 5.0, 0.0),
                                             child: Column(
                                               mainAxisSize: MainAxisSize.max,
                                               mainAxisAlignment:
@@ -3603,7 +3603,7 @@ class _TicketCardsWidgetState extends State<TicketCardsWidget> {
                                           child: Padding(
                                             padding:
                                                 EdgeInsetsDirectional.fromSTEB(
-                                                    5.0, 130.0, 5.0, 0.0),
+                                                    5.0, 122.0, 5.0, 0.0),
                                             child: Column(
                                               mainAxisSize: MainAxisSize.max,
                                               mainAxisAlignment:
