@@ -1,12 +1,12 @@
 
 abstract class FFAppConstants {
   static const int numberOfTickets = 4;
-  static const String sec = '103';
+  static const String sec = '103 VÄNSTER';
   static const String row = '7';
-  static const int tick1 = 25;
-  static const int tick2 = 26;
-  static const int tick3 = 27;
-  static const int tick4 = 28;
+  static const int tick1 = 7;
+  static const int tick2 = 8;
+  static const int tick3 = 9;
+  static const int tick4 = 10;
   static const String eventName =
       'Bad Bunny - DeBÍ TiRAR MáS FOTOS World Tour';
   static const String eventNameLine1 = 'Bad Bunny - DeBÍ TiRAR MáS FOTOS';
@@ -17,7 +17,7 @@ abstract class FFAppConstants {
   static const String eventPicture = 'assets/images/badbunny-01.png';
   static const String topBar = 'Standard Tickets';
   static const String secLabel = 'SEKTION';
-  static const String rowLabel = 'VÄNSTER';
+  static const String rowLabel = 'ROW';
   static const String innerDetails =
       'Sat, Jul 11, 2026, 8:00 PM -  Strawberry Arena, Stockholm';
   static const String seatTag = 'Mobile';
