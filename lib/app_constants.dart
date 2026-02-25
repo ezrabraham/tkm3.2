@@ -1,12 +1,12 @@
 
 abstract class FFAppConstants {
-  static const int numberOfTickets = 4;
-  static const String sec = '114';
-  static const String row = 'E';
-  static const int tick1 = 11;
-  static const int tick2 = 12;
-  static const int tick3 = 13;
-  static const int tick4 = 14;
+  static const int numberOfTickets = 3;
+  static const String sec = '103';
+  static const String row = '3';
+  static const int tick1 = 16;
+  static const int tick2 = 17;
+  static const int tick3 = 18;
+  static const int tick4 = 18;
   static const String eventName = "BTS WORLD TOUR 'ARIRANG' IN STANFORD";
   static const String eventNameLine1 = "BTS WORLD TOUR 'ARIRANG'";
   static const String eventNameLine2 = 'IN STANFORD';
