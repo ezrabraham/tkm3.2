@@ -1,31 +1,31 @@
 
 abstract class FFAppConstants {
   static const int numberOfTickets = 3;
-  static const String sec = '103';
-  static const String row = '3';
-  static const int tick1 = 16;
-  static const int tick2 = 17;
-  static const int tick3 = 18;
-  static const int tick4 = 18;
-  static const String eventName = "BTS WORLD TOUR 'ARIRANG' IN STANFORD";
-  static const String eventNameLine1 = "BTS WORLD TOUR 'ARIRANG'";
-  static const String eventNameLine2 = 'IN STANFORD';
-  static const String eventVenue = 'Stanford Stadium';
-  static const String eventSchedule = 'Sat, May 16, 2026, 7:00 PM';
-  static const String eventVenue2 = 'Stanford Stadium, Stanford, CA';
-  static const String eventPicture = 'assets/images/BTS-01.png';
-  static const String topBar = 'ARMY MEMBERSHIP PRESALE';
+  static const String sec = 'L4';
+  static const String row = '4';
+  static const int tick1 = 6;
+  static const int tick2 = 7;
+  static const int tick3 = 8;
+  static const int tick4 = 8;
+  static const String eventName = 'BetMGM Premier League Darts';
+  static const String eventNameLine1 = 'BetMGM Premier League';
+  static const String eventNameLine2 = 'Darts';
+  static const String eventVenue = 'Utilita Arena Cardiff';
+  static const String eventSchedule = 'Thu, Mar 5, 2026, 6:00 PM';
+  static const String eventVenue2 = 'Utilita Arena Cardiff, Cardiff';
+  static const String eventPicture = 'assets/images/PREMIERE-01.png';
+  static const String topBar = 'PREMIER LEAGUE DARTS';
   static const String innerDetails =
-      'Sat, May 16, 2026, 7:00 PM -  Stanford Stadium, Stanford, CA';
-  static const String seatTag = 'Mobile';
-  static const String eventname2 = "BTS WORLD TOUR 'ARIRANG' IN STANFORD";
+      'Thu, Mar 5, 2026, 6:00 PM -  Utilita Arena Cardiff, Cardiff';
+  static const String seatTag = 'LOWER LEVEL';
+  static const String eventname2 = 'BetMGM Premier League Darts';
   static const String seat1 = '-';
   static const bool isGeneralAdmission = false;
 
   ///
   ///
   ///
-  static const String eventName3 = "BTS WORLD TOUR 'ARIRANG' IN STANFORD";
-  static const String locateDate = 'Stanford, CA\nSat, May 16, 2026, 7:00 PM';
-  static const String location = 'Stanford, CA';
+  static const String eventName3 = 'BetMGM Premier League Darts';
+  static const String locateDate = 'Cardiff\nThu, Mar 5, 2026, 6:00 PM';
+  static const String location = 'Cardiff';
 }
