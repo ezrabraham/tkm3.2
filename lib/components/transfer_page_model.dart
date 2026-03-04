@@ -13,6 +13,10 @@ class TransferPageModel extends FlutterFlowModel<TransferPageWidget> {
   bool? checkboxValue3;
   // State field(s) for Checkbox widget.
   bool? checkboxValue4;
+  // State field(s) for Checkbox widget.
+  bool? checkboxValue5;
+  // State field(s) for Checkbox widget.
+  bool? checkboxValue6;
 
   @override
   void initState(BuildContext context) {}
