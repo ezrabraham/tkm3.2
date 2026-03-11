@@ -22,6 +22,10 @@ abstract class FFAppConstants {
   static const String seat1 = '-';
   static const bool isGeneralAdmission = false;
 
+  /// Profile defaults for this event
+  static const String profileName = 'Melissa Danielle';
+  static const String profileEmail = 'melissadanielle@gmail.com';
+
   ///
   ///
   ///
