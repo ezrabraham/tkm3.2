@@ -33,6 +33,18 @@ export PATH="$FLUTTER_SDK_PATH/bin:$PATH"
 echo "Precaching Flutter web dependencies..."
 flutter precache --web
 
+# Work around google_fonts 6.1.0 const map issue with Dart 3.11 web builds.
+# Some Flutter stable releases pull in google_fonts 6.1.0 for the Flutter tool
+# itself, which uses a const map keyed by FontWeight and fails constant
+# evaluation under newer Dart versions. We patch that package in the cache
+# by turning the offending const map into a non-const final map so the tool
+# can compile.
+GOOGLE_FONTS_VARIANT_PATH=\"$HOME/.pub-cache/hosted/pub.dev/google_fonts-6.1.0/lib/src/google_fonts_variant.dart\"
+if [ -f \"$GOOGLE_FONTS_VARIANT_PATH\" ]; then
+  echo \"Patching google_fonts 6.1.0 variant file to avoid const map error...\"
+  sed -i \"s/^const _fontWeightToFilenameWeightParts = {/final _fontWeightToFilenameWeightParts = {/\" \"$GOOGLE_FONTS_VARIANT_PATH\" || true
+fi
+
 # Verify Flutter installation
 flutter --version
 
