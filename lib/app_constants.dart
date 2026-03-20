@@ -1,12 +1,12 @@
 
 abstract class FFAppConstants {
   static const int numberOfTickets = 3;
-  static const String sec = 'P';
-  static const String row = '15';
-  static const int tick1 = 16;
-  static const int tick2 = 17;
-  static const int tick3 = 18;
-  static const int tick4 = 18;
+  static const String sec = '149';
+  static const String row = 'D';
+  static const int tick1 = 12;
+  static const int tick2 = 13;
+  static const int tick3 = 14;
+  static const int tick4 = 14;
   static const String eventName = "BTS WORLD TOUR 'ARIRANG' IN TAMPA";
   static const String eventNameLine1 = "BTS WORLD TOUR 'ARIRANG'";
   static const String eventNameLine2 = 'IN TAMPA';
@@ -21,6 +21,10 @@ abstract class FFAppConstants {
   static const String eventname2 = "BTS WORLD TOUR 'ARIRANG' IN TAMPA";
   static const String seat1 = '-';
   static const bool isGeneralAdmission = false;
+
+  /// Profile defaults for this event
+  static const String profileName = 'Colin Uriel';
+  static const String profileEmail = 'Officialoluomo27@gmail.com';
 
   ///
   ///
