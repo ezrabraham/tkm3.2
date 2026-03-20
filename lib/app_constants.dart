@@ -14,7 +14,7 @@ abstract class FFAppConstants {
   static const String eventSchedule = 'Mon, Jun 08, 2026, 8:30 PM';
   static const String eventVenue2 = 'Kia Center, Orlando, FL';
   static const String eventPicture = 'assets/images/rosalia-01.png';
-  static const String topBar = 'LUX TOUR 2026';
+  static const String topBar = 'Standard Admission';
   static const String innerDetails =
       'Mon, Jun 08, 2026, 8:30 PM -  Kia Center, Orlando, FL';
   static const String seatTag = 'Mobile';
