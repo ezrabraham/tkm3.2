@@ -556,7 +556,7 @@ class _TicketCardsWidgetState extends State<TicketCardsWidget> {
                                           child: Padding(
                                             padding:
                                                 EdgeInsetsDirectional.fromSTEB(
-                                                    5.0, FFAppConstants.eventNameLine2.isNotEmpty ? 120.0 : 135.0, 5.0, 0.0),
+                                                    5.0, FFAppConstants.eventNameLine2.isNotEmpty ? 120.0 : 139.0, 5.0, 0.0),
                                             child: Column(
                                               mainAxisSize: MainAxisSize.max,
                                               mainAxisAlignment:
@@ -1572,7 +1572,7 @@ class _TicketCardsWidgetState extends State<TicketCardsWidget> {
                                           child: Padding(
                                             padding:
                                                 EdgeInsetsDirectional.fromSTEB(
-                                                    5.0, FFAppConstants.eventNameLine2.isNotEmpty ? 120.0 : 135.0, 5.0, 0.0),
+                                                    5.0, FFAppConstants.eventNameLine2.isNotEmpty ? 120.0 : 139.0, 5.0, 0.0),
                                             child: Column(
                                               mainAxisSize: MainAxisSize.max,
                                               mainAxisAlignment:
@@ -2589,7 +2589,7 @@ class _TicketCardsWidgetState extends State<TicketCardsWidget> {
                                           child: Padding(
                                             padding:
                                                 EdgeInsetsDirectional.fromSTEB(
-                                                    5.0, FFAppConstants.eventNameLine2.isNotEmpty ? 120.0 : 135.0, 5.0, 0.0),
+                                                    5.0, FFAppConstants.eventNameLine2.isNotEmpty ? 120.0 : 139.0, 5.0, 0.0),
                                             child: Column(
                                               mainAxisSize: MainAxisSize.max,
                                               mainAxisAlignment:
@@ -3606,7 +3606,7 @@ class _TicketCardsWidgetState extends State<TicketCardsWidget> {
                                           child: Padding(
                                             padding:
                                                 EdgeInsetsDirectional.fromSTEB(
-                                                    5.0, FFAppConstants.eventNameLine2.isNotEmpty ? 120.0 : 135.0, 5.0, 0.0),
+                                                    5.0, FFAppConstants.eventNameLine2.isNotEmpty ? 120.0 : 139.0, 5.0, 0.0),
                                             child: Column(
                                               mainAxisSize: MainAxisSize.max,
                                               mainAxisAlignment:
