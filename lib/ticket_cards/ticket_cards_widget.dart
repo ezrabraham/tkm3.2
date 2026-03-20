@@ -556,7 +556,7 @@ class _TicketCardsWidgetState extends State<TicketCardsWidget> {
                                           child: Padding(
                                             padding:
                                                 EdgeInsetsDirectional.fromSTEB(
-                                                    5.0, 120.0, 5.0, 0.0),
+                                                    5.0, FFAppConstants.eventNameLine2.isNotEmpty ? 120.0 : 128.0, 5.0, 0.0),
                                             child: Column(
                                               mainAxisSize: MainAxisSize.max,
                                               mainAxisAlignment:
@@ -593,6 +593,7 @@ class _TicketCardsWidgetState extends State<TicketCardsWidget> {
                                                                 .fontStyle,
                                                       ),
                                                 ),
+                                                if (FFAppConstants.eventNameLine2.isNotEmpty)
                                                 Text(
                                                   FFAppConstants.eventNameLine2,
                                                   textAlign: TextAlign.center,
@@ -1571,7 +1572,7 @@ class _TicketCardsWidgetState extends State<TicketCardsWidget> {
                                           child: Padding(
                                             padding:
                                                 EdgeInsetsDirectional.fromSTEB(
-                                                    5.0, 120.0, 5.0, 0.0),
+                                                    5.0, FFAppConstants.eventNameLine2.isNotEmpty ? 120.0 : 128.0, 5.0, 0.0),
                                             child: Column(
                                               mainAxisSize: MainAxisSize.max,
                                               mainAxisAlignment:
@@ -1608,6 +1609,7 @@ class _TicketCardsWidgetState extends State<TicketCardsWidget> {
                                                                 .fontStyle,
                                                       ),
                                                 ),
+                                                if (FFAppConstants.eventNameLine2.isNotEmpty)
                                                 Text(
                                                   FFAppConstants.eventNameLine2,
                                                   textAlign: TextAlign.center,
@@ -2587,7 +2589,7 @@ class _TicketCardsWidgetState extends State<TicketCardsWidget> {
                                           child: Padding(
                                             padding:
                                                 EdgeInsetsDirectional.fromSTEB(
-                                                    5.0, 120.0, 5.0, 0.0),
+                                                    5.0, FFAppConstants.eventNameLine2.isNotEmpty ? 120.0 : 128.0, 5.0, 0.0),
                                             child: Column(
                                               mainAxisSize: MainAxisSize.max,
                                               mainAxisAlignment:
@@ -2624,6 +2626,7 @@ class _TicketCardsWidgetState extends State<TicketCardsWidget> {
                                                                 .fontStyle,
                                                       ),
                                                 ),
+                                                if (FFAppConstants.eventNameLine2.isNotEmpty)
                                                 Text(
                                                   FFAppConstants.eventNameLine2,
                                                   textAlign: TextAlign.center,
@@ -3603,7 +3606,7 @@ class _TicketCardsWidgetState extends State<TicketCardsWidget> {
                                           child: Padding(
                                             padding:
                                                 EdgeInsetsDirectional.fromSTEB(
-                                                    5.0, 120.0, 5.0, 0.0),
+                                                    5.0, FFAppConstants.eventNameLine2.isNotEmpty ? 120.0 : 128.0, 5.0, 0.0),
                                             child: Column(
                                               mainAxisSize: MainAxisSize.max,
                                               mainAxisAlignment:
@@ -3640,6 +3643,7 @@ class _TicketCardsWidgetState extends State<TicketCardsWidget> {
                                                                 .fontStyle,
                                                       ),
                                                 ),
+                                                if (FFAppConstants.eventNameLine2.isNotEmpty)
                                                 Text(
                                                   FFAppConstants.eventNameLine2,
                                                   textAlign: TextAlign.center,

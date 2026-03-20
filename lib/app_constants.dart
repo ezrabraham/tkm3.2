@@ -8,8 +8,8 @@ abstract class FFAppConstants {
   static const int tick3 = 14;
   static const int tick4 = 14;
   static const String eventName = 'ROSALÍA: LUX TOUR 2026';
-  static const String eventNameLine1 = 'ROSALÍA: LUX TOUR';
-  static const String eventNameLine2 = '2026';
+  static const String eventNameLine1 = 'ROSALÍA: LUX TOUR 2026';
+  static const String eventNameLine2 = '';
   static const String eventVenue = 'Kia Center';
   static const String eventSchedule = 'Mon, Jun 08, 2026, 8:30 PM';
   static const String eventVenue2 = 'Kia Center, Orlando, FL';
