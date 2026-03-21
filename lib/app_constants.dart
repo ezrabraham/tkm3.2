@@ -23,13 +23,14 @@ abstract class FFAppConstants {
   static const bool isGeneralAdmission = false;
 
   /// Profile defaults for this event
-  static const String profileName = 'Kay';
+  static const String profileName = 'Kay Wantman';
   static const String profileEmail = 'kaywantman@gmail.com';
 
   ///
   ///
   ///
   static const String eventName3 = "BTS WORLD TOUR 'ARIRANG' IN LOS ANGELES";
-  static const String locateDate = 'Inglewood, CA\nSat, Apr 25, 2026, 8:00 PM';
-  static const String location = 'Inglewood, CA';
+  static const String locateDate =
+      'Vestaburg, Michigan\nSat, Apr 25, 2026, 8:00 PM';
+  static const String location = 'Vestaburg, Michigan';
 }
