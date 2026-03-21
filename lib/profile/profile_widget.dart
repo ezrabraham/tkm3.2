@@ -419,7 +419,7 @@ class _ProfileWidgetState extends State<ProfileWidget> {
                                                   0.0, 0.0, 10.0, 0.0),
                                           child: Text(
                                             widget.city ??
-                                                FFAppConstants.location,
+                                                FFAppConstants.profileLocation,
                                             textAlign: TextAlign.center,
                                             style: FlutterFlowTheme.of(context)
                                                 .bodyMedium

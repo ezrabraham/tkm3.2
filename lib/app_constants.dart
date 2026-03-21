@@ -11,12 +11,12 @@ abstract class FFAppConstants {
   static const String eventNameLine1 = "BTS WORLD TOUR 'ARIRANG'";
   static const String eventNameLine2 = 'IN LOS ANGELES';
   static const String eventVenue = 'SoFi Stadium';
-  static const String eventSchedule = 'Sat, Apr 25, 2026, 8:00 PM';
+  static const String eventSchedule = 'Sat, Sep 05, 2026, 8:00 PM';
   static const String eventVenue2 = 'SoFi Stadium, Inglewood, CA';
   static const String eventPicture = 'assets/images/BTS-01.png';
   static const String topBar = 'ARMY MEMBERSHIP PRESALE';
   static const String innerDetails =
-      'Sat, Apr 25, 2026, 8:00 PM -  SoFi Stadium, Inglewood, CA';
+      'Sat, Sep 05, 2026, 8:00 PM -  SoFi Stadium, Inglewood, CA';
   static const String seatTag = 'Mobile';
   static const String eventname2 = "BTS WORLD TOUR 'ARIRANG' IN LOS ANGELES";
   static const String seat1 = '-';
@@ -25,12 +25,13 @@ abstract class FFAppConstants {
   /// Profile defaults for this event
   static const String profileName = 'Kay Wantman';
   static const String profileEmail = 'kaywantman@gmail.com';
+  static const String profileLocation = 'Vestaburg, Michigan';
 
   ///
   ///
   ///
   static const String eventName3 = "BTS WORLD TOUR 'ARIRANG' IN LOS ANGELES";
   static const String locateDate =
-      'Vestaburg, Michigan\nSat, Apr 25, 2026, 8:00 PM';
-  static const String location = 'Vestaburg, Michigan';
+      'Inglewood, CA\nSat, Sep 05, 2026, 8:00 PM';
+  static const String location = 'Inglewood, CA';
 }
