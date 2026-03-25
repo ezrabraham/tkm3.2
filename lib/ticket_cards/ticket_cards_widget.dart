@@ -637,7 +637,7 @@ class _TicketCardsWidgetState extends State<TicketCardsWidget> {
                                                     0.0,
                                                     FFAppConstants.eventNameLine2
                                                             .isEmpty
-                                                        ? 160.0
+                                                        ? 155.0
                                                         : 170.0,
                                                     0.0,
                                                     0.0),
@@ -1660,7 +1660,7 @@ class _TicketCardsWidgetState extends State<TicketCardsWidget> {
                                                     0.0,
                                                     FFAppConstants.eventNameLine2
                                                             .isEmpty
-                                                        ? 160.0
+                                                        ? 155.0
                                                         : 170.0,
                                                     0.0,
                                                     0.0),
@@ -2684,7 +2684,7 @@ class _TicketCardsWidgetState extends State<TicketCardsWidget> {
                                                     0.0,
                                                     FFAppConstants.eventNameLine2
                                                             .isEmpty
-                                                        ? 160.0
+                                                        ? 155.0
                                                         : 170.0,
                                                     0.0,
                                                     0.0),
@@ -3708,7 +3708,7 @@ class _TicketCardsWidgetState extends State<TicketCardsWidget> {
                                                     0.0,
                                                     FFAppConstants.eventNameLine2
                                                             .isEmpty
-                                                        ? 160.0
+                                                        ? 155.0
                                                         : 170.0,
                                                     0.0,
                                                     0.0),
