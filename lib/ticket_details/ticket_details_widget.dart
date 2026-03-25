@@ -233,7 +233,7 @@ class _TicketDetailsWidgetState extends State<TicketDetailsWidget> {
                             Padding(
                               padding: EdgeInsetsDirectional.fromSTEB(
                                 0.0,
-                                2.0,
+                                12.0,
                                 0.0,
                                 0.0,
                               ),

@@ -553,11 +553,13 @@ class _TicketCardsWidgetState extends State<TicketCardsWidget> {
                                         Align(
                                           alignment:
                                               AlignmentDirectional(0.0, 0.0),
-                                          child: Padding(
+                                            child: Padding(
                                             padding:
                                                 EdgeInsetsDirectional.fromSTEB(
                                                     5.0, 120.0, 5.0, 0.0),
-                                            child: Column(
+                                            child: Transform.translate(
+                                              offset: const Offset(0.0, -6.0),
+                                              child: Column(
                                               mainAxisSize: MainAxisSize.max,
                                               mainAxisAlignment:
                                                   MainAxisAlignment.center,
@@ -626,6 +628,7 @@ class _TicketCardsWidgetState extends State<TicketCardsWidget> {
                                                   ),
                                               ],
                                             ),
+                                            ),
                                           ),
                                         ),
                                         Align(
@@ -637,8 +640,8 @@ class _TicketCardsWidgetState extends State<TicketCardsWidget> {
                                                     0.0,
                                                     FFAppConstants.eventNameLine2
                                                             .isEmpty
-                                                        ? 157.0
-                                                        : 172.0,
+                                                        ? 165.0
+                                                        : 180.0,
                                                     0.0,
                                                     0.0),
                                             child: Row(
@@ -1576,11 +1579,13 @@ class _TicketCardsWidgetState extends State<TicketCardsWidget> {
                                         Align(
                                           alignment:
                                               AlignmentDirectional(0.0, 0.0),
-                                          child: Padding(
+                                            child: Padding(
                                             padding:
                                                 EdgeInsetsDirectional.fromSTEB(
                                                     5.0, 120.0, 5.0, 0.0),
-                                            child: Column(
+                                            child: Transform.translate(
+                                              offset: const Offset(0.0, -6.0),
+                                              child: Column(
                                               mainAxisSize: MainAxisSize.max,
                                               mainAxisAlignment:
                                                   MainAxisAlignment.center,
@@ -1649,6 +1654,7 @@ class _TicketCardsWidgetState extends State<TicketCardsWidget> {
                                                   ),
                                               ],
                                             ),
+                                            ),
                                           ),
                                         ),
                                         Align(
@@ -1660,8 +1666,8 @@ class _TicketCardsWidgetState extends State<TicketCardsWidget> {
                                                     0.0,
                                                     FFAppConstants.eventNameLine2
                                                             .isEmpty
-                                                        ? 157.0
-                                                        : 172.0,
+                                                        ? 165.0
+                                                        : 180.0,
                                                     0.0,
                                                     0.0),
                                             child: Row(
@@ -2600,11 +2606,13 @@ class _TicketCardsWidgetState extends State<TicketCardsWidget> {
                                         Align(
                                           alignment:
                                               AlignmentDirectional(0.0, 0.0),
-                                          child: Padding(
+                                            child: Padding(
                                             padding:
                                                 EdgeInsetsDirectional.fromSTEB(
                                                     5.0, 120.0, 5.0, 0.0),
-                                            child: Column(
+                                            child: Transform.translate(
+                                              offset: const Offset(0.0, -6.0),
+                                              child: Column(
                                               mainAxisSize: MainAxisSize.max,
                                               mainAxisAlignment:
                                                   MainAxisAlignment.center,
@@ -2673,6 +2681,7 @@ class _TicketCardsWidgetState extends State<TicketCardsWidget> {
                                                   ),
                                               ],
                                             ),
+                                            ),
                                           ),
                                         ),
                                         Align(
@@ -2684,8 +2693,8 @@ class _TicketCardsWidgetState extends State<TicketCardsWidget> {
                                                     0.0,
                                                     FFAppConstants.eventNameLine2
                                                             .isEmpty
-                                                        ? 157.0
-                                                        : 172.0,
+                                                        ? 165.0
+                                                        : 180.0,
                                                     0.0,
                                                     0.0),
                                             child: Row(
@@ -3624,11 +3633,13 @@ class _TicketCardsWidgetState extends State<TicketCardsWidget> {
                                         Align(
                                           alignment:
                                               AlignmentDirectional(0.0, 0.0),
-                                          child: Padding(
+                                            child: Padding(
                                             padding:
                                                 EdgeInsetsDirectional.fromSTEB(
                                                     5.0, 120.0, 5.0, 0.0),
-                                            child: Column(
+                                            child: Transform.translate(
+                                              offset: const Offset(0.0, -6.0),
+                                              child: Column(
                                               mainAxisSize: MainAxisSize.max,
                                               mainAxisAlignment:
                                                   MainAxisAlignment.center,
@@ -3697,6 +3708,7 @@ class _TicketCardsWidgetState extends State<TicketCardsWidget> {
                                                   ),
                                               ],
                                             ),
+                                            ),
                                           ),
                                         ),
                                         Align(
@@ -3708,8 +3720,8 @@ class _TicketCardsWidgetState extends State<TicketCardsWidget> {
                                                     0.0,
                                                     FFAppConstants.eventNameLine2
                                                             .isEmpty
-                                                        ? 157.0
-                                                        : 172.0,
+                                                        ? 165.0
+                                                        : 180.0,
                                                     0.0,
                                                     0.0),
                                             child: Row(
