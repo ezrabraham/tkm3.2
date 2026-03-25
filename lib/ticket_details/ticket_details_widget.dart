@@ -230,9 +230,16 @@ class _TicketDetailsWidgetState extends State<TicketDetailsWidget> {
                                           .fontStyle,
                                     ),
                               ),
-                            Row(
-                              mainAxisSize: MainAxisSize.max,
-                              children: [
+                            Padding(
+                              padding: EdgeInsetsDirectional.fromSTEB(
+                                0.0,
+                                2.0,
+                                0.0,
+                                0.0,
+                              ),
+                              child: Row(
+                                mainAxisSize: MainAxisSize.max,
+                                children: [
                                 Padding(
                                   padding: EdgeInsetsDirectional.fromSTEB(
                                       0.0,
@@ -311,7 +318,8 @@ class _TicketDetailsWidgetState extends State<TicketDetailsWidget> {
                                         ),
                                   ),
                                 ),
-                              ],
+                                ],
+                              ),
                             ),
                             Divider(
                               thickness: 0.2,
