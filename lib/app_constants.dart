@@ -1,15 +1,15 @@
 
 abstract class FFAppConstants {
-  static const int numberOfTickets = 3;
-  static const String sec = '126';
-  static const String row = '19';
-  static const int tick1 = 12;
-  static const int tick2 = 13;
-  static const int tick3 = 14;
-  static const int tick4 = 14;
+  static const int numberOfTickets = 2;
+  static const String sec = 'LOGE 1';
+  static const String row = '6';
+  static const int tick1 = 3;
+  static const int tick2 = 4;
+  static const int tick3 = 0;
+  static const int tick4 = 0;
   static const String eventName = "Lady Gaga: The MAYHEM Ball";
-  static const String eventNameLine1 = "Lady Gaga: The";
-  static const String eventNameLine2 = 'MAYHEM Ball';
+  static const String eventNameLine1 = "Lady Gaga: The MAYHEM Ball";
+  static const String eventNameLine2 = '';
   static const String eventVenue = 'TD Garden';
   static const String eventSchedule = 'Sun, Mar 29, 2026, 8:00 PM';
   static const String eventVenue2 = 'TD Garden, Boston, MA';

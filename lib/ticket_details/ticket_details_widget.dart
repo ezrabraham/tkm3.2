@@ -209,32 +209,38 @@ class _TicketDetailsWidgetState extends State<TicketDetailsWidget> {
                                         .fontStyle,
                                   ),
                             ),
-                            Text(
-                              FFAppConstants.eventNameLine2,
-                              style: FlutterFlowTheme.of(context)
-                                  .bodyMedium
-                                  .override(
-                                    font: GoogleFonts.plusJakartaSans(
+                            if (FFAppConstants.eventNameLine2.isNotEmpty)
+                              Text(
+                                FFAppConstants.eventNameLine2,
+                                style: FlutterFlowTheme.of(context)
+                                    .bodyMedium
+                                    .override(
+                                      font: GoogleFonts.plusJakartaSans(
+                                        fontWeight: FontWeight.w600,
+                                        fontStyle: FlutterFlowTheme.of(context)
+                                            .bodyMedium
+                                            .fontStyle,
+                                      ),
+                                      color: Color(0xFF101213),
+                                      fontSize: 14.0,
+                                      letterSpacing: 0.0,
                                       fontWeight: FontWeight.w600,
                                       fontStyle: FlutterFlowTheme.of(context)
                                           .bodyMedium
                                           .fontStyle,
                                     ),
-                                    color: Color(0xFF101213),
-                                    fontSize: 14.0,
-                                    letterSpacing: 0.0,
-                                    fontWeight: FontWeight.w600,
-                                    fontStyle: FlutterFlowTheme.of(context)
-                                        .bodyMedium
-                                        .fontStyle,
-                                  ),
-                            ),
+                              ),
                             Row(
                               mainAxisSize: MainAxisSize.max,
                               children: [
                                 Padding(
                                   padding: EdgeInsetsDirectional.fromSTEB(
-                                      0.0, 3.0, 0.0, 5.0),
+                                      0.0,
+                                      FFAppConstants.eventNameLine2.isEmpty
+                                          ? 1.0
+                                          : 3.0,
+                                      0.0,
+                                      5.0),
                                   child: Text(
                                     FFAppConstants.eventSchedule,
                                     style: FlutterFlowTheme.of(context)
