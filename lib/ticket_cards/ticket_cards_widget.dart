@@ -608,7 +608,7 @@ class _TicketCardsWidgetState extends State<TicketCardsWidget> {
                                                     .eventNameLine2.isNotEmpty)
                                                   Transform.translate(
                                                     offset: const Offset(
-                                                        0.0, -10.0),
+                                                        0.0, -15.0),
                                                     child: Text(
                                                       FFAppConstants
                                                           .eventNameLine2,
@@ -1652,7 +1652,7 @@ class _TicketCardsWidgetState extends State<TicketCardsWidget> {
                                                     .eventNameLine2.isNotEmpty)
                                                   Transform.translate(
                                                     offset: const Offset(
-                                                        0.0, -10.0),
+                                                        0.0, -15.0),
                                                     child: Text(
                                                       FFAppConstants
                                                           .eventNameLine2,
@@ -2697,7 +2697,7 @@ class _TicketCardsWidgetState extends State<TicketCardsWidget> {
                                                     .eventNameLine2.isNotEmpty)
                                                   Transform.translate(
                                                     offset: const Offset(
-                                                        0.0, -10.0),
+                                                        0.0, -15.0),
                                                     child: Text(
                                                       FFAppConstants
                                                           .eventNameLine2,
@@ -3742,7 +3742,7 @@ class _TicketCardsWidgetState extends State<TicketCardsWidget> {
                                                     .eventNameLine2.isNotEmpty)
                                                   Transform.translate(
                                                     offset: const Offset(
-                                                        0.0, -10.0),
+                                                        0.0, -15.0),
                                                     child: Text(
                                                       FFAppConstants
                                                           .eventNameLine2,

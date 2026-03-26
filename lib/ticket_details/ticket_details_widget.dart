@@ -226,7 +226,7 @@ class _TicketDetailsWidgetState extends State<TicketDetailsWidget> {
                             ),
                             if (FFAppConstants.eventNameLine2.isNotEmpty)
                               Transform.translate(
-                                offset: const Offset(0.0, -10.0),
+                                offset: const Offset(0.0, -15.0),
                                 child: Text(
                                   FFAppConstants.eventNameLine2,
                                   style: FlutterFlowTheme.of(context)
