@@ -24,7 +24,10 @@ abstract class FFAppConstants {
 
   /// Profile defaults for this event
   static const String profileName = 'Gavin Rogers';
-  static const String profileEmail = 'gavinrogers969@gmail.com';
+  static const String profileEmail = 'gavinrogers969@yahoo.com';
+  static const String profileCountry = 'Canada';
+  static const String profileCountryFlagUrl =
+      'https://upload.wikimedia.org/wikipedia/commons/d/d9/Flag_of_Canada_%28Pantone%29.svg';
 
   ///
   ///

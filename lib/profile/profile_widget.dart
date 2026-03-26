@@ -478,8 +478,8 @@ class _ProfileWidgetState extends State<ProfileWidget> {
                                             decoration: BoxDecoration(
                                               shape: BoxShape.circle,
                                             ),
-                                            child: Image.asset(
-                                              'assets/images/United_States_(Pantone).svg.png',
+                                            child: Image.network(
+                                              FFAppConstants.profileCountryFlagUrl,
                                               fit: BoxFit.cover,
                                             ),
                                           ),
@@ -526,7 +526,8 @@ class _ProfileWidgetState extends State<ProfileWidget> {
                                               EdgeInsetsDirectional.fromSTEB(
                                                   0.0, 0.0, 10.0, 0.0),
                                           child: Text(
-                                            'United States',
+                                            widget.country ??
+                                                FFAppConstants.profileCountry,
                                             textAlign: TextAlign.center,
                                             style: FlutterFlowTheme.of(context)
                                                 .bodyMedium
