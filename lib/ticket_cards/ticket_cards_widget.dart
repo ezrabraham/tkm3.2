@@ -658,8 +658,8 @@ class _TicketCardsWidgetState extends State<TicketCardsWidget> {
                                                     0.0,
                                                     FFAppConstants.eventNameLine2
                                                             .isEmpty
-                                                        ? 165.0
-                                                        : 180.0,
+                                                        ? 155.0
+                                                        : 170.0,
                                                     0.0,
                                                     0.0),
                                             child: Row(
@@ -1702,8 +1702,8 @@ class _TicketCardsWidgetState extends State<TicketCardsWidget> {
                                                     0.0,
                                                     FFAppConstants.eventNameLine2
                                                             .isEmpty
-                                                        ? 165.0
-                                                        : 180.0,
+                                                        ? 155.0
+                                                        : 170.0,
                                                     0.0,
                                                     0.0),
                                             child: Row(
@@ -2747,8 +2747,8 @@ class _TicketCardsWidgetState extends State<TicketCardsWidget> {
                                                     0.0,
                                                     FFAppConstants.eventNameLine2
                                                             .isEmpty
-                                                        ? 165.0
-                                                        : 180.0,
+                                                        ? 155.0
+                                                        : 170.0,
                                                     0.0,
                                                     0.0),
                                             child: Row(
@@ -3792,8 +3792,8 @@ class _TicketCardsWidgetState extends State<TicketCardsWidget> {
                                                     0.0,
                                                     FFAppConstants.eventNameLine2
                                                             .isEmpty
-                                                        ? 165.0
-                                                        : 180.0,
+                                                        ? 155.0
+                                                        : 170.0,
                                                     0.0,
                                                     0.0),
                                             child: Row(
