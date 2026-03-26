@@ -558,7 +558,7 @@ class _TicketCardsWidgetState extends State<TicketCardsWidget> {
                                                 EdgeInsetsDirectional.fromSTEB(
                                                     5.0, 120.0, 5.0, 0.0),
                                             child: Transform.translate(
-                                              offset: const Offset(0.0, 4.0),
+                                              offset: const Offset(0.0, 14.0),
                                               child: Column(
                                               mainAxisSize: MainAxisSize.max,
                                               mainAxisAlignment:
@@ -658,8 +658,8 @@ class _TicketCardsWidgetState extends State<TicketCardsWidget> {
                                                     0.0,
                                                     FFAppConstants.eventNameLine2
                                                             .isEmpty
-                                                        ? 155.0
-                                                        : 170.0,
+                                                        ? 165.0
+                                                        : 180.0,
                                                     0.0,
                                                     0.0),
                                             child: Row(
@@ -1602,7 +1602,7 @@ class _TicketCardsWidgetState extends State<TicketCardsWidget> {
                                                 EdgeInsetsDirectional.fromSTEB(
                                                     5.0, 120.0, 5.0, 0.0),
                                             child: Transform.translate(
-                                              offset: const Offset(0.0, 4.0),
+                                              offset: const Offset(0.0, 14.0),
                                               child: Column(
                                               mainAxisSize: MainAxisSize.max,
                                               mainAxisAlignment:
@@ -1702,8 +1702,8 @@ class _TicketCardsWidgetState extends State<TicketCardsWidget> {
                                                     0.0,
                                                     FFAppConstants.eventNameLine2
                                                             .isEmpty
-                                                        ? 155.0
-                                                        : 170.0,
+                                                        ? 165.0
+                                                        : 180.0,
                                                     0.0,
                                                     0.0),
                                             child: Row(
@@ -2647,7 +2647,7 @@ class _TicketCardsWidgetState extends State<TicketCardsWidget> {
                                                 EdgeInsetsDirectional.fromSTEB(
                                                     5.0, 120.0, 5.0, 0.0),
                                             child: Transform.translate(
-                                              offset: const Offset(0.0, 4.0),
+                                              offset: const Offset(0.0, 14.0),
                                               child: Column(
                                               mainAxisSize: MainAxisSize.max,
                                               mainAxisAlignment:
@@ -2747,8 +2747,8 @@ class _TicketCardsWidgetState extends State<TicketCardsWidget> {
                                                     0.0,
                                                     FFAppConstants.eventNameLine2
                                                             .isEmpty
-                                                        ? 155.0
-                                                        : 170.0,
+                                                        ? 165.0
+                                                        : 180.0,
                                                     0.0,
                                                     0.0),
                                             child: Row(
@@ -3692,7 +3692,7 @@ class _TicketCardsWidgetState extends State<TicketCardsWidget> {
                                                 EdgeInsetsDirectional.fromSTEB(
                                                     5.0, 120.0, 5.0, 0.0),
                                             child: Transform.translate(
-                                              offset: const Offset(0.0, 4.0),
+                                              offset: const Offset(0.0, 14.0),
                                               child: Column(
                                               mainAxisSize: MainAxisSize.max,
                                               mainAxisAlignment:
@@ -3792,8 +3792,8 @@ class _TicketCardsWidgetState extends State<TicketCardsWidget> {
                                                     0.0,
                                                     FFAppConstants.eventNameLine2
                                                             .isEmpty
-                                                        ? 155.0
-                                                        : 170.0,
+                                                        ? 165.0
+                                                        : 180.0,
                                                     0.0,
                                                     0.0),
                                             child: Row(
