@@ -9,21 +9,28 @@ echo "Repository root: $REPO_ROOT"
 
 echo "Installing Flutter SDK..."
 
-# Install Flutter
+# google_fonts 6.3.3 requires Flutter 3.35+ / Dart 3.9+
+FLUTTER_VERSION="3.35.0"
 FLUTTER_SDK_PATH="$HOME/flutter"
 
-# Download Flutter if not already present
+install_flutter() {
+  echo "Downloading Flutter SDK $FLUTTER_VERSION..."
+  rm -rf "$FLUTTER_SDK_PATH"
+  git clone https://github.com/flutter/flutter.git -b "$FLUTTER_VERSION" --depth 1 "$FLUTTER_SDK_PATH"
+}
+
 if [ ! -d "$FLUTTER_SDK_PATH" ]; then
-  echo "Downloading Flutter SDK..."
-  cd $HOME
-  git clone https://github.com/flutter/flutter.git -b stable --depth 1
-  cd flutter
-  git fetch --depth=1
+  install_flutter
 else
-  echo "Flutter SDK already exists, updating..."
-  cd $FLUTTER_SDK_PATH
-  git fetch --depth=1
-  git reset --hard origin/stable
+  cd "$FLUTTER_SDK_PATH"
+  CURRENT_VERSION="$(git describe --tags --exact-match 2>/dev/null || echo unknown)"
+  if [ "$CURRENT_VERSION" != "$FLUTTER_VERSION" ]; then
+    echo "Flutter version mismatch ($CURRENT_VERSION != $FLUTTER_VERSION), reinstalling..."
+    cd "$HOME"
+    install_flutter
+  else
+    echo "Flutter SDK $FLUTTER_VERSION already installed."
+  fi
 fi
 
 # Add Flutter to PATH
